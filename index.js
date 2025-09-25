@@ -30,7 +30,7 @@ app.post('/', async (req, res) => {
       },
       "order": {
         "currency": process.env.CURRENCY || "USD",
-        "amount": process.env.DEFAULT_AMOUNT || "250.00",
+        "amount": process.env.DEFAULT_AMOUNT || "1.00",
         "id": orderid,
         "description": process.env.ORDER_DESCRIPTION || "Goods and Services"
       }
