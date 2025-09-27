@@ -26,7 +26,7 @@ app.post('/', async (req, res) => {
           "name": process.env.MERCHANT_NAME || "JK Enterprises LLC",
           "url": process.env.MERCHANT_URL || "https://mastercard.com"
         },
-        "returnUrl": process.env.RETURN_URL || "https://hosted-checkout-indol.vercel.app"
+        "returnUrl": process.env.RETURN_URL || "https://hosted-checkout-indol.vercel.app/ReceiptPage"
       },
       "order": {
         "currency": process.env.CURRENCY || "USD",
